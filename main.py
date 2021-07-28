@@ -13,7 +13,7 @@ import threading, time
 
 
 
-bot = telebot.TeleBot(const.token_bot)
+bot = telebot.TeleBot(const.token_bot,parse_mode=None)
 city = dict()
 tovar_d = dict()
 ves_d = dict()
