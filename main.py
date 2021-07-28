@@ -101,7 +101,7 @@ def tovar_end(tovar):
                 q2 = types.InlineKeyboardButton(text="3г", callback_data="3")
                 q3 = types.InlineKeyboardButton(text="5г", callback_data="5")
                 back3 = types.InlineKeyboardButton(text="Dos", callback_data="back2")
-                switch_v1 = types.InlineKeyboardButton(text="Opérateur", url='t.me/Underbhoomi')
+                switch_v1 = types.InlineKeyboardButton(text="Opérateur", url='t.me/Renaud17')
                 keyboardmenu3.add(q1, q2, q3, switch_v1, back3)
                 bot.edit_message_text(chat_id=cid, message_id=mid, text="De quel poids avez-vous besoin ? Si vous avez besoin de plus, écrivez à notre opérateur !", reply_markup=keyboardmenu3)
 
@@ -110,7 +110,7 @@ def tovar_end(tovar):
         v2 = types.InlineKeyboardButton(text="3г", callback_data="3")
         v3 = types.InlineKeyboardButton(text="5г", callback_data="5")
         back3 = types.InlineKeyboardButton(text="Dos", callback_data="back2")
-        switch_v = types.InlineKeyboardButton(text="Opérateur", url='t.me/Underbhoomi')
+        switch_v = types.InlineKeyboardButton(text="Opérateur", url='t.me/Renaud17')
         markup.add(v1, v2, v3, back3, switch_v)
         try:
                 bot.edit_message_text(chat_id=cid, message_id=mid, text="De quel poids avez-vous besoin ? Si vous avez besoin de plus, écrivez à notre opérateur !", reply_markup=markup)
@@ -119,7 +119,7 @@ def tovar_end(tovar):
                 v2 = types.InlineKeyboardButton(text="3г", callback_data="3")
                 v3 = types.InlineKeyboardButton(text="5г", callback_data="5")
                 back3 = types.InlineKeyboardButton(text="Dos", callback_data="back2")
-                switch_v = types.InlineKeyboardButton(text="Opérateur", url='t.me/Underbhoomi')
+                switch_v = types.InlineKeyboardButton(text="Opérateur", url='t.me/Renaud17')
                 markup.add(v1, v2, v3, back3, switch_v)
 
 @bot.callback_query_handler(func=lambda ves: (ves.data == "1" or ves.data == "3") or ves.data == "5")
