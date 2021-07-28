@@ -196,7 +196,7 @@ def somfunk(yets):
         oo = types.InlineKeyboardButton(text="EasyPay - 95436138", url="https://easypay.ua/ua/catalog/e-money/easypay/easypay-money-deposit?account=95436138")
         markup.add(oo)
         markup.add(bby)
-        bot.edit_message_text(chat_id=cid, message_id=mid,text="Après être allé sur le site pour payer, n'oubliez pas d'appuyer sur le bouton "Envoyer pour vérifier". Vous avez 35 minutes pour tout faire. Si vous ne le faites pas ou si vous vous trompez, vous serez banni. 3 interdictions - vous obtiendrez une interdiction d'urgence.", reply_markup=markup)
+        bot.edit_message_text(chat_id=cid, message_id=mid,text="Après être allé sur le site pour payer, n'oubliez pas d'appuyer sur le bouton 'Envoyer pour vérifier'. Vous avez 35 minutes pour tout faire. Si vous ne le faites pas ou si vous vous trompez, vous serez banni. 3 interdictions - vous obtiendrez une interdiction d'urgence.", reply_markup=markup)
 
 
 
