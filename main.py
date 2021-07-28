@@ -292,13 +292,6 @@ def baaaan(m):
                 pass
         if m == "sad":
                 bot.edit_message_text(chat_id, "Tu as eu trois interdictions. Disons au revoir !")
-
-
-
-
-
-  
-if __name__ == "__main__":
-        bot.polling(none_stop=True, interval=0)
-                
-        
+#Start Bot
+if __name__ == '__main__':
+    bot.polling(none_stop=True)
